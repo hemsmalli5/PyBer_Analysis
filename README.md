@@ -7,6 +7,12 @@ o	Average Fare per Ride; total fares / total rides
 o	Average Fare per Driver; total fares/ total drivers
 All these metrics pulled into a summary DataFrame
 
+Inline-style: 
+![Summary](https://github.com/hemsmalli5/PyBer_Analysis/blob/master/Summay%20DataFrame.PNG)
+
+Inline-style: 
+![Line Graph](https://github.com/hemsmalli5/PyBer_Analysis/blob/master/Line_graph.png)
+
 Summary DataFrame reveals that Rural cities have highest average fare per driver ($55.49) and Urban cities have least average fare per driver ($16.57) even though Urban cities have higher number of drivers (2,405) and have highest fare collection ($39,854.38). The Line chart that shows fares from Jan 1, 2019 to April 28, 2019 based on weekly data, reveals same data that the total fare by Urban stands highest in comparison with Suburban & Rural Areas. This analysis is indicative of total fares are directly proportional with total riders and drivers’ number and we can conclude that the Pyber rideshare app is good bet on Urban areas.
 
 The technical analysis was straight forward except few challenges that were resolved such as formatting the columns, setting and dropping the indexes where necessary, resampling weekly data for line graph. We used Python and Pandas functions to overcome these challenges.
